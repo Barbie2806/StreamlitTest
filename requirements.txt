@@ -1,2 +1,7 @@
 streamlit
 pandas
+seaborn 
+matplotlib.pyplot 
+plotly.express 
+pygwalker 
+streamlit.components.v1 
