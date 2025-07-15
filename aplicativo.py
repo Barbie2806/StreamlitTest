@@ -125,15 +125,8 @@ if df_filtrado.empty:
 else:
     st.success(f"{len(df_filtrado)} registros encontrados")
 
-
-###Crear menu
-
-menu = st.selectbox("Selecciona una sección", ["Análisis General", "Exploración con PyGWalker"]) 
-
-if menu == "Análisis General":
-    # Acá crearemos la sección general
     
-    st.write("Análsis General")
+    st.write("**Análsis General**")
    
 
  ### KPIs
@@ -770,14 +763,6 @@ st.info("""
  Esto sugiere una variabilidad notable en la oferta, posiblemente vinculada a factores económicos, 
  regulatorios o de mercado.
  """)
-
-
- ###Sección PyGWalker en proceso............
-
-
-
-
-
 
 ### Tabla y estadísticas
 
