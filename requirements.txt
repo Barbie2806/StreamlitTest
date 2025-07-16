@@ -40,4 +40,5 @@ seaborn
 pandas
 matplotlib
 plotly.express
+pygwalker
 
